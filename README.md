@@ -66,7 +66,7 @@ FlappyBird like 2D mobile game based on bunch of tutorials.
   <tr>
     <th>App permissions</th>
     <td>
-      have full network access <br>
+<!--       have full network access <br> -->
     </td>
   </tr>
   </table>
