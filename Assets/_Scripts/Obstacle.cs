@@ -6,7 +6,7 @@ public class Obstacle : MonoBehaviour
 {
 
     [SerializeField] float speed = 5f;
-    [SerializeField] int lifeTime = 5;
+    [SerializeField] int lifeTime = 7;
 
 
     // Start is called before the first frame update
