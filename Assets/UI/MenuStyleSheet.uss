@@ -1,0 +1,41 @@
+
+/* root selector */
+:root {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+}
+
+
+
+Label {
+	color: rgb(217, 193, 15);
+	font-size: 800%;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    -unity-text-outline-width: 4px; 
+    -unity-text-outline-color: rgb(159, 129, 49);
+    text-shadow: 0 16px 0 rgb(0, 0, 0);
+    white-space: normal;
+    width: 20%;
+    margin: 16px 20px 16px 20px;
+}
+
+.large-text {
+	
+}
+
+Button {
+    font-size: 600%;
+    -unity-font-style: bold;
+    width: 20%;
+    margin: 16px 20px 16px 20px;
+    padding: 10px 12px 10px 12px;
+}
+
+.small-button {
+    font-size: 400%;
+    width: 15%
+}
