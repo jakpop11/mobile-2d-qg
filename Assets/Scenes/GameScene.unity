@@ -2651,7 +2651,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1298834139
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2963,7 +2963,7 @@ GameObject:
   - component: {fileID: 1475451015}
   - component: {fileID: 1475451016}
   m_Layer: 0
-  m_Name: UIDocument
+  m_Name: UIScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3009,13 +3009,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1475451013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b72bad648d0fa0448a433eff5d5671b7, type: 3}
+  m_Script: {fileID: 11500000, guid: f75faad113aad2b408d65a17c8fbeb98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   document: {fileID: 1475451015}
   styleSheet: {fileID: 7433441132597879392, guid: c61704c7f1bb4354aae65b4130f8b572, type: 3}
-  startBtnBackground: {fileID: 1874887372963945904, guid: c62aa9b4ba76a3d46a064b4bf93828f8, type: 3}
-  exitBtnBackground: {fileID: 3948115927587391712, guid: c62aa9b4ba76a3d46a064b4bf93828f8, type: 3}
 --- !u!1 &1526275715
 GameObject:
   m_ObjectHideFlags: 0
@@ -3278,7 +3276,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1681870352
 RectTransform:
   m_ObjectHideFlags: 0
