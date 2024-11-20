@@ -33,7 +33,7 @@ FlappyBird like 2D mobile game based on bunch of tutorials.
 
 ### Features:
 - [x] Gameplay based on How to [Make a Mobile Game in Unity](https://gamedevacademy.org/unity-mobile-game-tutorial/) by Tim Bonzon
-- [ ] UI made with UI Toolkit Primer based on [UI Toolkit Primer - Build UIs like a Programmer](https://youtu.be/I1JcytXwXM4?si=II2DDdxUboEF4d-D) by Tarodev
+- [ ] UI made with UI Toolkit based on [User interface design and implementation in Unity](https://unity.com/resources/user-interface-design-and-implementation-in-unity) and [UI Toolkit Primer - Build UIs like a Programmer](https://youtu.be/I1JcytXwXM4?si=II2DDdxUboEF4d-D) by Tarodev
 
 ### Used technology:
 <p>
