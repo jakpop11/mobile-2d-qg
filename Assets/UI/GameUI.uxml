@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="StartScreen" src="project://database/Assets/UI/Screens/StartScreen.uxml?fileID=9197481963319205126&amp;guid=9f74d34726a2eb742b987dd5d1b540c2&amp;type=3#StartScreen" />
+    <ui:Template name="GameplayScreen" src="project://database/Assets/UI/Screens/GameplayScreen.uxml?fileID=9197481963319205126&amp;guid=3c580fa53f7cd0f4dbc3a74d1aad9ccd&amp;type=3#GameplayScreen" />
+    <ui:Template name="RestartScreen" src="project://database/Assets/UI/Screens/RestartScreen.uxml?fileID=9197481963319205126&amp;guid=643ba2b863374b24e85d7c2bf8d655c4&amp;type=3#RestartScreen" />
+    <Style src="project://database/Assets/UI/GameStyles.uss?fileID=7433441132597879392&amp;guid=461c45b40ab1ada4ab4424fd93f642a4&amp;type=3#GameStyles" />
+    <ui:Instance template="StartScreen" name="StartScreen" class="screen" />
+    <ui:Instance template="GameplayScreen" name="GameplayScreen" class="screen" />
+    <ui:Instance template="RestartScreen" name="RestartScreen" class="screen" style="display: none;" />
+</ui:UXML>

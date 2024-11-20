@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] float tapForce = 500f;
     Rigidbody2D playerRigidbody;
 
-    [SerializeField] Text scoreText;
+    //[SerializeField] Text scoreText;
     public static int Score = 0;
 
     [SerializeField] GameObject restartScreen;
@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = Score.ToString();
+        //scoreText.text = Score.ToString();
 
 
         if (Input.GetMouseButtonDown(0))

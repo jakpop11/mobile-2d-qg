@@ -1,0 +1,56 @@
+.screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+Label {
+    font-size: 100px;
+}
+
+.title-text {
+    /* font-size: 120%; */
+    width: 45%;
+    -unity-font-style: bold;
+    white-space: normal;
+    -unity-text-align: middle-center;
+    align-self: center;
+    -unity-text-outline-width: 3px;
+    -unity-text-outline-color: rgb(197, 137, 34);
+    text-shadow: 10px 10px 0 rgb(0, 0, 0);
+    color: rgb(221, 192, 47);
+    font-size: 150%;
+}
+
+.counter-text {
+    /* font-size: 120%; */
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    -unity-text-outline-width: 4px;
+    -unity-text-outline-color: rgb(255, 255, 255);
+}
+
+Button {
+    font-size: 100px;
+    -unity-font-style: bold;
+}
+
+.menu-button {
+    /* font-size: 100%; */
+    width: 40%;
+    align-self: center;
+    -unity-font-style: bold;
+    padding: 8px 4px 8px 4px;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+}
+
+.menu-button-small {
+    /* font-size: 80%; */
+    width: 30%;
+    align-self: center;
+    -unity-font-style: bold;
+    padding: 8px 4px 8px 4px;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+}

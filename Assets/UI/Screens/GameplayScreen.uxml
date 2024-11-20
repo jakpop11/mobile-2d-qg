@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GameUIStyles.uss?fileID=7433441132597879392&amp;guid=461c45b40ab1ada4ab4424fd93f642a4&amp;type=3#GameUIStyles" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="score-label" class="counter-text" style="font-size: 120%;" />
+    </ui:VisualElement>
+</ui:UXML>
