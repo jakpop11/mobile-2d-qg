@@ -117,7 +117,6 @@ public class GameUIManager : MonoBehaviour
 
     void OnExitClicked()
     {
-        Debug.Log("Quitting");
         Application.Quit();
 #if UNITY_EDITOR
         EditorApplication.isPlaying = false;
