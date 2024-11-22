@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GameUIStyles.uss?fileID=7433441132597879392&amp;guid=461c45b40ab1ada4ab4424fd93f642a4&amp;type=3#GameUIStyles" />
+    <ui:VisualElement style="flex-grow: 1; position: relative; flex-shrink: 0; flex-basis: 100%; justify-content: space-around; margin-top: 0; padding-top: 5%;">
+        <ui:Label text="Get Ready!" class="title-text" style="font-size: 150%;" />
+        <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="start-button" class="menu-button" style="font-size: 100%; background-image: url(&quot;project://database/Assets/Graphics/HUD/Base-01.png?fileID=1874887372963945904&amp;guid=c62aa9b4ba76a3d46a064b4bf93828f8&amp;type=3#Base-01_1&quot;);" />
+        <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-button" class="menu-button-small" style="font-size: 80%; background-image: url(&quot;project://database/Assets/Graphics/HUD/Base-01.png?fileID=3948115927587391712&amp;guid=c62aa9b4ba76a3d46a064b4bf93828f8&amp;type=3#Base-01_2&quot;);" />
+    </ui:VisualElement>
+</ui:UXML>
