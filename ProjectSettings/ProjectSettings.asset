@@ -289,14 +289,15 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 0}
+      m_Icon: {fileID: 2800000, guid: 1ed4f418aa651194da49a0da1667bad6, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: Android
     m_Icons:
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 1ed4f418aa651194da49a0da1667bad6, type: 3}
       m_Width: 192
       m_Height: 192
       m_Kind: 0
@@ -326,7 +327,8 @@ PlayerSettings:
       m_Height: 36
       m_Kind: 0
       m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 1ed4f418aa651194da49a0da1667bad6, type: 3}
       m_Width: 192
       m_Height: 192
       m_Kind: 1
@@ -356,7 +358,9 @@ PlayerSettings:
       m_Height: 36
       m_Kind: 1
       m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: e89b09804852beb4e9a75c1597283413, type: 3}
+      - {fileID: 2800000, guid: 1ed4f418aa651194da49a0da1667bad6, type: 3}
       m_Width: 432
       m_Height: 432
       m_Kind: 2
@@ -805,7 +809,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 2
+  activeInputHandler: 0
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0

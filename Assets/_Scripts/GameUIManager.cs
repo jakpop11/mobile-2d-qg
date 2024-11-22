@@ -37,9 +37,9 @@ public class GameUIManager : MonoBehaviour
     //Button exitButton;
 
     // Events
-    public static UnityEvent StartButtonClicked;
-    public static UnityEvent ExitButtonClicked;
-    public static UnityEvent RestartButtonClicked;
+    public UnityEvent StartButtonClicked;
+    public UnityEvent ExitButtonClicked;
+    public UnityEvent RestartButtonClicked;
 
 
     void Awake()
@@ -126,6 +126,7 @@ public class GameUIManager : MonoBehaviour
 
     void OnRestartClicked()
     {
+        RestartButtonClicked?.Invoke();
 
     }
 
