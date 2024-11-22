@@ -33,7 +33,7 @@ FlappyBird like 2D mobile game based on bunch of tutorials.
 
 ### Features:
 - [x] Gameplay based on How to [Make a Mobile Game in Unity](https://gamedevacademy.org/unity-mobile-game-tutorial/) by Tim Bonzon
-- [ ] UI made with UI Toolkit based on [User interface design and implementation in Unity](https://unity.com/resources/user-interface-design-and-implementation-in-unity) and [UI Toolkit Primer - Build UIs like a Programmer](https://youtu.be/I1JcytXwXM4?si=II2DDdxUboEF4d-D) by Tarodev
+- [x] UI made with UI Toolkit based on [User interface design and implementation in Unity](https://unity.com/resources/user-interface-design-and-implementation-in-unity) and [Building Runtime UI with UI Toolkit In Unity](https://youtu.be/6DcwHPxCE54?si=lfgSlKnc2mZ-wIiF) by Game Dev Guide
 
 ### Used technology:
 <p>
@@ -49,19 +49,19 @@ FlappyBird like 2D mobile game based on bunch of tutorials.
   <table>
   <tr>
     <th>Required OS</th>
-    <td>Android x and up</td>
+    <td>Android 11.0 (API lvl 30) and up</td>
   </tr>
   <tr>
     <th>Download size</th>
-    <td>x MB</td>
+    <td>25 MB</td>
   </tr>
   <tr>
     <th>Storage</th>
-    <td>x GB available space</td>
+    <td>1 GB available space</td>
   </tr>
   <tr>
     <th>Memory</th>
-    <td>x GB RAM</td>
+    <td>2 GB RAM</td>
   </tr>
   <tr>
     <th>App permissions</th>
@@ -74,6 +74,6 @@ FlappyBird like 2D mobile game based on bunch of tutorials.
 
 
 ## Installation
-
+Download ```FlappyFly QG.apk``` and install on Android device. Because application is installed outside the Google Play Store it will require to confirm installation or scan the game by device.
 
 ## License
