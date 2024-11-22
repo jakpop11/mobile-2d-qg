@@ -1,9 +1,7 @@
-<!--
 <p align="center">
-  <img width="64" alt="Game Icon" src="path/icon.svg">
+  <img width="64" alt="Game Icon" src="Assets/Graphics/Mob/Small%20Bee/Bee.png">
 </p>
--->
-<h3 align="center">Game Title</h3>
+<h3 align="center">FlappyFly QG</h3>
 <p align="center">Quick 2D Mobile Game</p>
 
 <details>
@@ -13,6 +11,7 @@
     <ul>
       <li><a href="#Features">Features</a></li>
       <li><a href="#Used-technology">Used technology</a></li>
+      <li><a href="#Used-assets">Used assets</a></li>
       <li><a href="#Requirements">Requirements</a></li>
     </ul>
     <li><a href="#Installation">Installation</a></li>
@@ -33,7 +32,7 @@ FlappyBird like 2D mobile game based on bunch of tutorials.
 
 ### Features:
 - [x] Gameplay based on How to [Make a Mobile Game in Unity](https://gamedevacademy.org/unity-mobile-game-tutorial/) by Tim Bonzon
-- [x] UI made with UI Toolkit based on [User interface design and implementation in Unity](https://unity.com/resources/user-interface-design-and-implementation-in-unity) and [Building Runtime UI with UI Toolkit In Unity](https://youtu.be/6DcwHPxCE54?si=lfgSlKnc2mZ-wIiF) by Game Dev Guide
+- [x] UI made with UI Toolkit based on [Building Runtime UI with UI Toolkit In Unity](https://youtu.be/6DcwHPxCE54?si=lfgSlKnc2mZ-wIiF) by Game Dev Guide and [User interface design and implementation in Unity](https://unity.com/resources/user-interface-design-and-implementation-in-unity)
 
 ### Used technology:
 <p>
@@ -42,6 +41,8 @@ FlappyBird like 2D mobile game based on bunch of tutorials.
   </a>
 </p>
 
+### Used assets:
+- [Legacy-Fantasy - High Forest 2.3](https://anokolisa.itch.io/sidescroller-pixelart-sprites-asset-pack-forest-16x16) by Anokolisa
 
 ### Requirements:
 <details>
