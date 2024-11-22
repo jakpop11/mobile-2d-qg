@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
@@ -11,7 +8,7 @@ public class GameUIManager : MonoBehaviour
 {
     // Visual Elements' names
     static string startScreenName = "StartScreen";
-    static string startButtonName = "StartButton";
+    static string startButtonName = "start-button";
     static string exitButtonName = "exit-button";
 
     static string gameplayScreenName = "GameplayScreen";
@@ -19,7 +16,7 @@ public class GameUIManager : MonoBehaviour
 
     static string restartScreenName = "RestartScreen";
     static string restartButtonName = "restart-button";
-    //static string exitButtonName = "exit-button";
+    static string restartExitButtonName = "restart-exit-button";
 
     // Visual Elements
     UIDocument document;
@@ -34,7 +31,7 @@ public class GameUIManager : MonoBehaviour
 
     VisualElement restartScreen;
     Button restartButton;
-    //Button exitButton;
+    Button restartExitButton;
 
     // Events
     public UnityEvent StartButtonClicked;
@@ -78,6 +75,7 @@ public class GameUIManager : MonoBehaviour
 
         restartScreen = root.Q(restartScreenName);
         restartButton = root.Q<Button>(restartButtonName);
+        restartExitButton = root.Q<Button>(restartExitButtonName);
     }
 
 
@@ -88,6 +86,7 @@ public class GameUIManager : MonoBehaviour
         startButton.clicked += OnStartClicked;
         exitButton.clicked += OnExitClicked;
         restartButton.clicked += OnRestartClicked;
+        restartExitButton.clicked += OnExitClicked;
     }
 
     void UnsubscribeToEvents()
@@ -97,6 +96,7 @@ public class GameUIManager : MonoBehaviour
         startButton.clicked -= OnStartClicked;
         exitButton.clicked -= OnExitClicked;
         restartButton.clicked -= OnRestartClicked;
+        restartExitButton.clicked -= OnExitClicked;
     }
 
     void Initialize()
