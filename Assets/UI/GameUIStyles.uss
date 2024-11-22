@@ -9,7 +9,6 @@ Label {
 }
 
 .title-text {
-    /* font-size: 120%; */
     width: 45%;
     -unity-font-style: bold;
     white-space: normal;
@@ -23,7 +22,6 @@ Label {
 }
 
 .counter-text {
-    /* font-size: 120%; */
     -unity-text-align: upper-center;
     -unity-font-style: bold;
     -unity-text-outline-width: 4px;
@@ -36,7 +34,6 @@ Button {
 }
 
 .menu-button {
-    /* font-size: 100%; */
     width: 40%;
     align-self: center;
     -unity-font-style: bold;
@@ -46,11 +43,17 @@ Button {
 }
 
 .menu-button-small {
-    /* font-size: 80%; */
     width: 30%;
     align-self: center;
     -unity-font-style: bold;
     padding: 8px 4px 8px 4px;
     background-color: rgba(0, 0, 0, 0);
     border-width: 0;
+}
+
+Button:hover {
+    scale: 1.05 1.05;
+    transition-property: scale;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out-bounce;
 }

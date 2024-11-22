@@ -9,10 +9,9 @@ public class Player : MonoBehaviour
     [SerializeField] float tapForce = 500f;
     Rigidbody2D playerRigidbody;
 
-    //[SerializeField] Text scoreText;
+    [SerializeField] GameUIManager gameUIManager;
     public static int Score = 0;
 
-    [SerializeField] GameObject restartScreen;
 
 
 
@@ -28,8 +27,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //scoreText.text = Score.ToString();
-
+        gameUIManager.UpdateScoreLabel(Score);
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -42,7 +40,7 @@ public class Player : MonoBehaviour
     {
         if(collision.gameObject.tag == "Obstacle")
         {
-            restartScreen.SetActive(true);
+            gameUIManager.OnGameOver();
             Time.timeScale = 0;
         }
     }
