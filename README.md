@@ -21,11 +21,11 @@
 
 
 ## About project
-<!--
 <p align="center">
-  <img width="30%" alt="gameplay screenshot" src="Screenshots/screnshoot.jpg">
+  <img width="49%" alt="start screen screenshoot" src="Screenshots/StartScreen.jpg">
+  <img width="49%" alt="gameplay screen screenshoot" src="Screenshots/GamePlay.jpg">
 </p>
--->
+
 FlappyBird like 2D mobile game based on bunch of tutorials.
 
 
